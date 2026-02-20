@@ -1,0 +1,2797 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fastlife</title>
+    <script defer src="./assets/main.js"></script>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./css/media-reviews.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header page__header">
+        <div class="header__container container">
+          <img src="./img/logo.svg" alt="FastLife" class="header__logo" />
+          <nav class="header__menu menu">
+            <div class="menu__body">
+              <button class="menu__close" data-menu-button>
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 17L17 1M17 17L1 1"
+                    stroke="#272525"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </button>
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Расписание</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Рестораны</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Фото</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Как оплатить</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Отзывы</a>
+                </li>
+              </ul>
+              <div class="menu__contacts">
+                <button class="button button_color_black">Свяжитесь со мной</button>
+                <a href="tel:+74951510025" class="button">+7 495 151-00-25</a>
+              </div>
+
+              <ul class="menu__socials">
+                <li class="menu__social">
+                  <a href="#" class="menu__link">
+                    <img src="./img/image 136.png" alt="" />
+                  </a>
+                </li>
+                <li class="menu__social">
+                  <a href="#" class="menu__link">
+                    <img src="./img/image 135.png" alt="" />
+                  </a>
+                </li>
+                <li class="menu__social">
+                  <a href="#" class="menu__link">
+                    <img src="./img/image 134.png" alt="" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <button class="header__menu-button" data-menu-button>
+            <svg
+              width="18"
+              height="14"
+              viewBox="0 0 18 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 1H17M17 7H1M1 13H17"
+                stroke="#272525"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="bevel"
+              />
+            </svg>
+          </button>
+        </div>
+      </header>
+
+      <main class="main">
+        <div class="container">
+          <div class="welcome">
+            <div class="welcome__content">
+              <h1 class="welcome__title title1">
+                Быстрые свидания
+                <span class="title1">«Speed dating» №1&nbsp;в Москве</span>
+              </h1>
+              <div class="welcome__blocks" data-da=".welcome,992,last">
+                <div class="welcome__card">
+                  <h3 class="welcome__card-title">Ближайшие мероприятия</h3>
+                  <p class="welcome__description welcome__card-description">
+                    30 июля, четверг, 20:00 2 вечера свиданий и квиз знакомства
+                  </p>
+                  <button
+                    data-popup-toggle="signup"
+                    class="welcome__button button button_accent button_thin"
+                    data-mobile="Выбрать мероприятие"
+                  >
+                    Записаться
+                  </button>
+                </div>
+                <div class="welcome__help">
+                  <p class="welcome__description welcome__help-description">
+                    Не можете выбрать? Мы поможем!
+                  </p>
+                  <a
+                    href="#choose"
+                    class="welcome__button button button_accent button_outline button_thin"
+                    data-mobile="Получить приглашение"
+                    >Подобрать мероприятие</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="welcome__image">
+              <h2 class="welcome__subtitle">Уже 13 лет</h2>
+              <p class="welcome__caption">соединяем сердца</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="stats">
+          <div class="stats__container container">
+            <div class="stats__content">
+              <img src="./img/number.svg" alt="" class="stats__number" />
+              <span class="stats__caption">москвичей познакомились у нас!</span>
+
+              <div class="stats__choose">
+                <h3 class="stats__subtitle">
+                  Лучший выбор по данным
+                  <a href="https://kudago.com" target="_blank">KudaGo.com</a>
+                </h3>
+                <div class="media-reviews__button" role="button" data-target="mediaKudago">
+                  <img src="./img/logos/kudago.png" alt="" class="stats__choose-image" />
+                </div>
+              </div>
+
+              <div class="stats__talks">
+                <h3 class="stats__subtitle stats__subtitle-talks">О нас говорят:</h3>
+                <ul class="stats__companies">
+                  <li class="stats__company">
+                    <button class="stats__button media-reviews__button" data-target="mediaGlamour">
+                      <img src="./img/logos/glamour.png" alt="" class="stats__logo" />
+                    </button>
+                  </li>
+                  <li class="stats__company">
+                    <button class="stats__button media-reviews__button" data-target="media1st">
+                      <img src="./img/logos/1st.png" alt="" class="stats__logo" />
+                    </button>
+                  </li>
+                  <li class="stats__company">
+                    <button class="stats__button media-reviews__button" data-target="mediaOtp">
+                      <img src="./img/logos/otp.png" alt="" class="stats__logo" />
+                    </button>
+                  </li>
+                  <li class="stats__company">
+                    <button class="stats__button media-reviews__button" data-target="mediaTvtower">
+                      <img src="./img/logos/tvtower.png" alt="" class="stats__logo" />
+                    </button>
+                  </li>
+                  <li class="stats__company">
+                    <button class="stats__button media-reviews__button" data-target="mediaCtc">
+                      <img
+                        src="./img/logos/ctc.svg"
+                        style="height: 18px"
+                        alt=""
+                        class="stats__logo"
+                      />
+                    </button>
+                  </li>
+                  <li class="stats__company">
+                    <button class="stats__button media-reviews__button" data-target="mediaFriday">
+                      <img src="./img/logos/friday.png" alt="" class="stats__logo" />
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="stats__video-wrap" data-da=".stats__content,992,2">
+              <video
+                src="./img/1477167_People_Business_3840x2160.mov"
+                poster="./img/preview.png"
+                class="stats__video video"
+              ></video>
+            </div>
+          </div>
+        </div>
+
+        <div class="media-reviews">
+          <div class="media-reviews__modal" data-media="mediaKudago">
+            <div class="media-reviews__modal-body">
+              <div class="media-reviews__modal-content">
+                <figure class="media-reviews__modal-logo">
+                  <img
+                    class="media-reviews__modal-logo-image"
+                    src="./img/logos/kudago.png"
+                    alt="logo"
+                  />
+                </figure>
+
+                <div class="media-reviews__modal-subtitle">О нас говорят</div>
+
+                <div class="media-reviews__modal-title">Портал Kudago.Com</div>
+
+                <div class="media-reviews__modal-main">
+                  <div class="media-reviews__modal-main-content">
+                    <p class="media-reviews__modal-main-paragraph">
+                      Портал KudaGo.com сотрудничает с сервисом быстрых свиданий FastLife более
+                      десяти лет. За это время мы убедились, что компания FastLife является надежным
+                      организатором speed dating - событий в Москве.
+                    </p>
+
+                    <p class="media-reviews__modal-main-paragraph">
+                      По данным на апрель 2022 года, FastLife предлагает своим клиентам наилучший
+                      выбор вечеров формата «быстрые свидания» в столице, является лидером по
+                      количеству дней проведения в неделю и соответствию заявленным возрастным
+                      группам.
+                    </p>
+
+                    <p class="media-reviews__modal-main-paragraph">
+                      Положительные отзывы наших читателей также позволяют рекомендовать FastLife в
+                      качестве опытного организатора и удобного сервиса для желающих посетить
+                      мероприятия формата speed dating.
+                    </p>
+
+                    <p class="media-reviews__modal-main-paragraph">
+                      <a href="#">Оригинальное письмо</a>
+                    </p>
+                  </div>
+
+                  <aside class="media-reviews__modal-main-callback">
+                    <div class="media-reviews__modal-main-callback-title">
+                      Забронируйте участие в Speed Dating!
+                    </div>
+
+                    <form class="media-reviews__modal-main-callback-form">
+                      <fieldset class="media-reviews__modal-main-callback-form-fieldset">
+                        <input
+                          class="media-reviews__modal-main-callback-form-input"
+                          type="text"
+                          name="name"
+                          placeholder="Имя"
+                          required
+                        />
+                      </fieldset>
+                      <fieldset class="media-reviews__modal-main-callback-form-fieldset">
+                        <input
+                          class="media-reviews__modal-main-callback-form-input"
+                          type="tel"
+                          name="phone"
+                          placeholder="Телефон"
+                          required
+                        />
+                      </fieldset>
+                      <fieldset class="media-reviews__modal-main-callback-form-fieldset">
+                        <button class="media-reviews__modal-main-callback-form-submit">
+                          Получить приглашение
+                        </button>
+                      </fieldset>
+                    </form>
+                  </aside>
+                </div>
+              </div>
+
+              <div class="media-reviews__modal-close">
+                <button class="media-reviews__modal-close-button"></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="media-reviews__modal" data-media="mediaGlamour">
+            <div class="media-reviews__modal-body">
+              <div class="media-reviews__modal-content">
+                <figure class="media-reviews__modal-logo">
+                  <img
+                    class="media-reviews__modal-logo-image"
+                    src="./img/logos/glamour.png"
+                    alt="logo"
+                  />
+                </figure>
+
+                <div class="media-reviews__modal-subtitle">О нас говорят</div>
+
+                <div class="media-reviews__modal-title">Журнал «Glamour»</div>
+
+                <div class="media-reviews__modal-main">
+                  <div class="media-reviews__modal-main-content">
+                    <p class="media-reviews__modal-main-paragraph">
+                      Speed Dating – такой формат вечеринок быстрых знакомств появился в конце
+                      прошлого века в США и быстро стал популярен и в Европе. Корреспондент журнала
+                      «Гламур» Ольга Любимова посетила вечеринку от компании FastLife...
+                      <a href="#">Подробнее</a>
+                    </p>
+
+                    <div class="media-reviews__modal-main-gallery">
+                      <img
+                        class="media-reviews__modal-main-gallery-image"
+                        src="./img/media-review-1.jpg"
+                        alt=""
+                      />
+                      <img
+                        class="media-reviews__modal-main-gallery-image"
+                        src="./img/media-review-2.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+
+                  <aside class="media-reviews__modal-main-callback">
+                    <div class="media-reviews__modal-main-callback-title">
+                      Забронируйте участие в Speed Dating!
+                    </div>
+
+                    <form class="media-reviews__modal-main-callback-form">
+                      <fieldset class="media-reviews__modal-main-callback-form-fieldset">
+                        <input
+                          class="media-reviews__modal-main-callback-form-input"
+                          type="text"
+                          name="name"
+                          placeholder="Имя"
+                          required
+                        />
+                      </fieldset>
+                      <fieldset class="media-reviews__modal-main-callback-form-fieldset">
+                        <input
+                          class="media-reviews__modal-main-callback-form-input"
+                          type="tel"
+                          name="phone"
+                          placeholder="Телефон"
+                          required
+                        />
+                      </fieldset>
+                      <fieldset class="media-reviews__modal-main-callback-form-fieldset">
+                        <button class="media-reviews__modal-main-callback-form-submit">
+                          Получить приглашение
+                        </button>
+                      </fieldset>
+                    </form>
+                  </aside>
+                </div>
+              </div>
+
+              <div class="media-reviews__modal-close">
+                <button class="media-reviews__modal-close-button"></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="media-reviews__modal" data-media="media1st">
+            <div class="media-reviews__modal-body">
+              <div class="media-reviews__modal-content">
+                <figure class="media-reviews__modal-logo">
+                  <img
+                    class="media-reviews__modal-logo-image"
+                    src="./img/logos/1st.png"
+                    alt="logo"
+                  />
+                </figure>
+
+                <div class="media-reviews__modal-subtitle">О нас говорят</div>
+
+                <div class="media-reviews__modal-title">Первый канал</div>
+
+                <div class="media-reviews__modal-main">
+                  <div class="media-reviews__modal-main-content">
+                    <div class="media-reviews__modal-main-video">
+                      <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/K4TOrB7at0Y?si=-l0bgcuxVoBo_R-G"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="
+                          accelerometer;
+                          autoplay;
+                          clipboard-write;
+                          encrypted-media;
+                          gyroscope;
+                          picture-in-picture;
+                          web-share;
+                        "
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+
+                    <p class="media-reviews__modal-main-paragraph">
+                      Репортаж Первого канала о том, как найти любовь в большом городе.
+                    </p>
+                  </div>
+
+                  <aside class="media-reviews__modal-main-callback">
+                    <div class="media-reviews__modal-main-callback-title">
+                      Забронируйте участие в Speed Dating!
+                    </div>
+
+                    <form class="media-reviews__modal-main-callback-form">
+                      <fieldset class="media-reviews__modal-main-callback-form-fieldset">
+                        <input
+                          class="media-reviews__modal-main-callback-form-input"
+                          type="text"
+                          name="name"
+                          placeholder="Имя"
+                          required
+                        />
+                      </fieldset>
+                      <fieldset class="media-reviews__modal-main-callback-form-fieldset">
+                        <input
+                          class="media-reviews__modal-main-callback-form-input"
+                          type="tel"
+                          name="phone"
+                          placeholder="Телефон"
+                          required
+                        />
+                      </fieldset>
+                      <fieldset class="media-reviews__modal-main-callback-form-fieldset">
+                        <button class="media-reviews__modal-main-callback-form-submit">
+                          Получить приглашение
+                        </button>
+                      </fieldset>
+                    </form>
+                  </aside>
+                </div>
+              </div>
+
+              <div class="media-reviews__modal-close">
+                <button class="media-reviews__modal-close-button"></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="media-reviews__modal" data-media="mediaOtp">
+            <div class="media-reviews__modal-body">
+              <div class="media-reviews__modal-content">
+                <figure class="media-reviews__modal-logo">
+                  <img
+                    class="media-reviews__modal-logo-image"
+                    src="./img/logos/otp.png"
+                    alt="logo"
+                  />
+                </figure>
+
+                <div class="media-reviews__modal-subtitle">О нас говорят</div>
+
+                <div class="media-reviews__modal-title">Телеканал ОТР</div>
+
+                <div class="media-reviews__modal-main">
+                  <div class="media-reviews__modal-main-content">
+                    <div class="media-reviews__modal-main-video">
+                      <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/K4TOrB7at0Y?si=-l0bgcuxVoBo_R-G"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="
+                          accelerometer;
+                          autoplay;
+                          clipboard-write;
+                          encrypted-media;
+                          gyroscope;
+                          picture-in-picture;
+                          web-share;
+                        "
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+
+                    <p class="media-reviews__modal-main-paragraph">
+                      Speed Dating уже стал популярным развлечением, а не только местом для
+                      знакомств (в гостях у FastLife Общественное Телевидение России).
+                    </p>
+                  </div>
+
+                  <aside class="media-reviews__modal-main-callback">
+                    <div class="media-reviews__modal-main-callback-title">
+                      Забронируйте участие в Speed Dating!
+                    </div>
+
+                    <form class="media-reviews__modal-main-callback-form">
+                      <fieldset class="media-reviews__modal-main-callback-form-fieldset">
+                        <input
+                          class="media-reviews__modal-main-callback-form-input"
+                          type="text"
+                          name="name"
+                          placeholder="Имя"
+                          required
+                        />
+                      </fieldset>
+                      <fieldset class="media-reviews__modal-main-callback-form-fieldset">
+                        <input
+                          class="media-reviews__modal-main-callback-form-input"
+                          type="tel"
+                          name="phone"
+                          placeholder="Телефон"
+                          required
+                        />
+                      </fieldset>
+                      <fieldset class="media-reviews__modal-main-callback-form-fieldset">
+                        <button class="media-reviews__modal-main-callback-form-submit">
+                          Получить приглашение
+                        </button>
+                      </fieldset>
+                    </form>
+                  </aside>
+                </div>
+              </div>
+
+              <div class="media-reviews__modal-close">
+                <button class="media-reviews__modal-close-button"></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="media-reviews__modal" data-media="mediaTvtower">
+            <div class="media-reviews__modal-body">
+              <div class="media-reviews__modal-content">
+                <figure class="media-reviews__modal-logo">
+                  <img
+                    class="media-reviews__modal-logo-image"
+                    src="./img/logos/tvtower.png"
+                    alt="logo"
+                  />
+                </figure>
+
+                <div class="media-reviews__modal-subtitle">О нас говорят</div>
+
+                <div class="media-reviews__modal-title">Останкинская телебашня</div>
+
+                <div class="media-reviews__modal-main">
+                  <div class="media-reviews__modal-main-content">
+                    <p class="media-reviews__modal-main-paragraph">
+                      С 7 по 9 ноября 2014 года FastLife провел самое массовое романтическое
+                      свидание на высоте 337м.
+                    </p>
+
+                    <p class="media-reviews__modal-main-paragraph">
+                      В честь дня Рождения Останкинской телебашни более сотни человек встретились на
+                      самой высокой смотровой площадке Европы. Наша компания была выбрана в качестве
+                      эксклюзивного партнера по организации свиданий и проведения мероприятия.
+                      Специально для свиданий была предоставлена смотровая площадка башни, где
+                      каждый из посетителей смог насладиться видом вечерней столицы с высоты
+                      птичьего полета, испытать острые ощущения от прогулки по стеклянному полу и
+                      конечно же встретиться в самом романтическом месте столицы с теми, кто также
+                      пришел найти свою любовь.
+                    </p>
+
+                    <p class="media-reviews__modal-main-paragraph">
+                      Мероприятие прошло при широкой поддержке в медиа, о свиданиях рассказали:
+                      Российская Газета, телеканал Пятница, The Village, Москва 24, Московский
+                      Комсомолец и другие СМИ.
+                    </p>
+
+                    <div class="media-reviews__modal-main-gallery">
+                      <img
+                        class="media-reviews__modal-main-gallery-image"
+                        src="./img/media-review-3.jpg"
+                        alt=""
+                      />
+                      <img
+                        class="media-reviews__modal-main-gallery-image"
+                        src="./img/media-review-4.jpg"
+                        alt=""
+                      />
+                      <img
+                        class="media-reviews__modal-main-gallery-image"
+                        src="./img/media-review-5.jpg"
+                        alt=""
+                      />
+                      <img
+                        class="media-reviews__modal-main-gallery-image"
+                        src="./img/media-review-6.jpg"
+                        alt=""
+                      />
+                      <img
+                        class="media-reviews__modal-main-gallery-image"
+                        src="./img/media-review-7.jpg"
+                        alt=""
+                      />
+                      <img
+                        class="media-reviews__modal-main-gallery-image"
+                        src="./img/media-review-8.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+
+                  <aside class="media-reviews__modal-main-callback">
+                    <div class="media-reviews__modal-main-callback-title">
+                      Забронируйте участие в Speed Dating!
+                    </div>
+
+                    <form class="media-reviews__modal-main-callback-form">
+                      <fieldset class="media-reviews__modal-main-callback-form-fieldset">
+                        <input
+                          class="media-reviews__modal-main-callback-form-input"
+                          type="text"
+                          name="name"
+                          placeholder="Имя"
+                          required
+                        />
+                      </fieldset>
+                      <fieldset class="media-reviews__modal-main-callback-form-fieldset">
+                        <input
+                          class="media-reviews__modal-main-callback-form-input"
+                          type="tel"
+                          name="phone"
+                          placeholder="Телефон"
+                          required
+                        />
+                      </fieldset>
+                      <fieldset class="media-reviews__modal-main-callback-form-fieldset">
+                        <button class="media-reviews__modal-main-callback-form-submit">
+                          Получить приглашение
+                        </button>
+                      </fieldset>
+                    </form>
+                  </aside>
+                </div>
+              </div>
+
+              <div class="media-reviews__modal-close">
+                <button class="media-reviews__modal-close-button"></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="media-reviews__modal" data-media="mediaFriday">
+            <div class="media-reviews__modal-body">
+              <div class="media-reviews__modal-content">
+                <figure class="media-reviews__modal-logo">
+                  <img
+                    class="media-reviews__modal-logo-image"
+                    src="./img/logos/friday.png"
+                    alt="logo"
+                  />
+                </figure>
+
+                <div class="media-reviews__modal-subtitle">О нас говорят</div>
+
+                <div class="media-reviews__modal-title">Телеканал Пятница</div>
+
+                <div class="media-reviews__modal-main">
+                  <div class="media-reviews__modal-main-content">
+                    <div class="media-reviews__modal-main-video">
+                      <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/K4TOrB7at0Y?si=-l0bgcuxVoBo_R-G"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="
+                          accelerometer;
+                          autoplay;
+                          clipboard-write;
+                          encrypted-media;
+                          gyroscope;
+                          picture-in-picture;
+                          web-share;
+                        "
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+
+                    <p class="media-reviews__modal-main-paragraph">
+                      Корреспондент телеканала Пятница посетил наш Speed Dating в башне Останкино и
+                      познакомился с его участниками.
+                    </p>
+                  </div>
+
+                  <aside class="media-reviews__modal-main-callback">
+                    <div class="media-reviews__modal-main-callback-title">
+                      Забронируйте участие в Speed Dating!
+                    </div>
+
+                    <form class="media-reviews__modal-main-callback-form">
+                      <fieldset class="media-reviews__modal-main-callback-form-fieldset">
+                        <input
+                          class="media-reviews__modal-main-callback-form-input"
+                          type="text"
+                          name="name"
+                          placeholder="Имя"
+                          required
+                        />
+                      </fieldset>
+                      <fieldset class="media-reviews__modal-main-callback-form-fieldset">
+                        <input
+                          class="media-reviews__modal-main-callback-form-input"
+                          type="tel"
+                          name="phone"
+                          placeholder="Телефон"
+                          required
+                        />
+                      </fieldset>
+                      <fieldset class="media-reviews__modal-main-callback-form-fieldset">
+                        <button class="media-reviews__modal-main-callback-form-submit">
+                          Получить приглашение
+                        </button>
+                      </fieldset>
+                    </form>
+                  </aside>
+                </div>
+              </div>
+
+              <div class="media-reviews__modal-close">
+                <button class="media-reviews__modal-close-button"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="how">
+          <div class="how__container container">
+            <h2 class="how__title title2">Как проходят быстрые свидания?</h2>
+
+            <div class="how__list-wrapper">
+              <ol class="how__list">
+                <li class="how__item">
+                  <h3 class="how__card-title">Добро пожаловать на вечеринку <br />свиданий</h3>
+                  <p class="how__description">
+                    Получите приглашение на&nbsp;сайте и приходите на&nbsp;вечер! Вас ждет 15
+                    <br />новых приятных знакомств.
+                  </p>
+                </li>
+                <li class="how__item">
+                  <h3 class="how__card-title">Общайтесь с удовольствием</h3>
+                  <p class="how__description">
+                    У каждого участника вечеринки есть личный номер и 5-7 минут на общение.
+                  </p>
+                </li>
+                <li class="how__item">
+                  <h3 class="how__card-title">Играйте<br />в знакомства</h3>
+                  <p class="how__description">
+                    Отметьте в личной карте всех, кто вам понравился на вечере. Это самый простой
+                    способ узнать о&nbsp;взаимности.
+                  </p>
+                </li>
+                <li class="how__item">
+                  <h3 class="how__card-title">Узнайте, с кем совпали симпатии</h3>
+                  <p class="how__description">
+                    На следующий день вы получите контакты взаимных симпатий!
+                  </p>
+                </li>
+                <li class="how__item">
+                  <h3 class="how__card-title">
+                    Встречайтесь с теми, кто мечтает встретиться с вами
+                  </h3>
+                  <p class="how__description">
+                    Просто позвоните тому, с кем у вас совпали симпатии и назначьте следующую
+                    встречу уже вдвоем
+                  </p>
+                </li>
+
+                <li class="how__arrow">
+                  <button class="how__arrow-button">
+                    <svg
+                      width="11"
+                      height="11"
+                      viewBox="0 0 11 11"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M5.10638 9.25865C4.77407 9.59096 4.77407 10.1297 5.10638 10.4621C5.43869 10.7944 5.97748 10.7944 6.30979 10.4621L10.7091 6.06277C11.0996 5.67225 11.0996 5.03908 10.7091 4.64856L6.30979 0.249285C5.97748 -0.0830261 5.43869 -0.0830258 5.10638 0.249285C4.77407 0.581596 4.77407 1.12038 5.10638 1.45269L8.1583 4.5046H0.851063C0.381034 4.5046 0 4.88564 0 5.35567C0 5.8257 0.381034 6.20673 0.851063 6.20673H8.1583L5.10638 9.25865Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </button>
+                </li>
+              </ol>
+            </div>
+
+            <div class="how__footer">
+              <h3 class="how__soc-title">Подпишитесь на анонсы наших мероприятий</h3>
+              <ul class="how__socials">
+                <li class="how__social">
+                  <a class="how__social-link" href="#">
+                    <img src="./img/vk.png" alt="" class="how__icon" />
+                    <div class="how__info">
+                      <h4 class="how__social-name">ВКонтакте</h4>
+                      <small class="how__social-subs">18741 подписчик</small>
+                    </div>
+                  </a>
+                </li>
+                <li class="how__social">
+                  <a class="how__social-link" href="#">
+                    <img src="./img/telegram.png" alt="" class="how__icon" />
+                    <div class="how__info">
+                      <h4 class="how__social-name">Telegram</h4>
+                      <small class="how__social-subs">6244 подписчика</small>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="choose" id="choose">
+          <div class="choose__container container">
+            <h2 class="choose__title">Подбор мероприятия</h2>
+
+            <h3 class="choose__subtitle">Расскажите о себе</h3>
+
+            <div class="choose__form choose-form">
+              <div class="choose-form__personal-block">
+                <div class="choose-form__block">
+                  <span class="choose-form__caption">Ваш пол</span>
+                  <div class="choose-form__choose">
+                    <input
+                      type="radio"
+                      name="gender"
+                      class="choose-form__radio"
+                      id="choose-form-gender-male"
+                    />
+                    <label for="choose-form-gender-male" class="choose-form__label"
+                      >Муж<span>ской</span></label
+                    >
+                    <input
+                      type="radio"
+                      name="gender"
+                      class="choose-form__radio"
+                      id="choose-form-gender-female"
+                    />
+                    <label for="choose-form-gender-female" class="choose-form__label"
+                      >Жен<span>ский</span></label
+                    >
+                  </div>
+                </div>
+                <div class="choose-form__block">
+                  <span class="choose-form__caption">Ваш возраст</span>
+                  <input type="text" class="choose-form__input" id="choose-form-age" />
+                </div>
+              </div>
+
+              <div
+                class="choose-form__tags"
+                data-tags-box-toggle
+                data-da=".choose__container,640,5"
+              >
+                <label class="choose-form__tag choose-form__block">Speed Dating</label>
+                <label class="choose-form__tag choose-form__block">Большой Speed Dating</label>
+                <label class="choose-form__tag choose-form__block">Мафия</label>
+                <label class="choose-form__tag choose-form__block">Сапио Свидания</label>
+                <li class="choose-form__tag choose-form__block">...</li>
+
+                <div class="choose-form__tags-box" id="tags-box">
+                  <label class="choose-form__tag choose-form__block">
+                    <input type="checkbox" name="category" id="speed-dating" />
+                    Speed Dating</label
+                  >
+                  <label class="choose-form__tag choose-form__block">
+                    <input type="checkbox" name="category" id="large-speed-dating" />
+                    Большой Speed Dating</label
+                  >
+                  <label class="choose-form__tag choose-form__block">
+                    <input type="checkbox" name="category" id="mafia" />
+                    Мафия</label
+                  >
+                  <label class="choose-form__tag choose-form__block">
+                    <input type="checkbox" name="category" id="sapio-dating" />
+                    Сапио Свидания</label
+                  >
+                  <li class="choose-form__tag choose-form__block">...</li>
+                  <label class="choose-form__tag choose-form__block">
+                    <input type="checkbox" name="category" id="speed-dating" />
+                    Speed Dating</label
+                  >
+                  <label class="choose-form__tag choose-form__block">
+                    <input type="checkbox" name="category" id="large-speed-dating" />
+                    Большой Speed Dating</label
+                  >
+                  <label class="choose-form__tag choose-form__block">
+                    <input type="checkbox" name="category" id="mafia" />
+                    Мафия</label
+                  >
+                  <label class="choose-form__tag choose-form__block">
+                    <input type="checkbox" name="category" id="sapio-dating" />
+                    Сапио Свидания</label
+                  >
+                  <label class="choose-form__tag choose-form__block">
+                    <input type="checkbox" name="category" id="speed-dating" />
+                    Speed Dating</label
+                  >
+                  <label class="choose-form__tag choose-form__block">
+                    <input type="checkbox" name="category" id="large-speed-dating" />
+                    Большой Speed Dating</label
+                  >
+                  <label class="choose-form__tag choose-form__block">
+                    <input type="checkbox" name="category" id="mafia" />
+                    Мафия</label
+                  >
+                  <label class="choose-form__tag choose-form__block">
+                    <input type="checkbox" name="category" id="sapio-dating" />
+                    Сапио Свидания</label
+                  >
+                </div>
+              </div>
+            </div>
+
+            <h3 class="choose__subtitle choose__dates-title">Удобные даты</h3>
+            <div class="choose__schedule-wrapper">
+              <button type="button" class="choose__arrow">
+                <img src="./icons/arrow.svg" alt="" class="" />
+              </button>
+              <div class="choose__schedule">
+                <div class="choose__label-wrapper">
+                  <h4 class="choose__label">авг</h4>
+                </div>
+                <div class="choose__day">
+                  <span class="choose__weekday">ср</span>
+                  <span class="choose__date">30</span>
+                </div>
+                <div class="choose__day">
+                  <span class="choose__weekday">чт</span>
+                  <span class="choose__date">31</span>
+                </div>
+
+                <div class="choose__day">
+                  <span class="choose__weekday">пт</span>
+                  <span class="choose__date">08</span>
+                </div>
+                <div class="choose__day">
+                  <span class="choose__weekday choose__weekend">сб</span>
+                  <span class="choose__date">09</span>
+                </div>
+                <div class="choose__day">
+                  <span class="choose__weekday choose__weekend">вс</span>
+                  <span class="choose__date">10</span>
+                </div>
+              </div>
+              <button type="button" class="choose__arrow choose__arrow_next">
+                <img src="./icons/arrow.svg" alt="" class="" />
+              </button>
+            </div>
+
+            <button class="choose__button choose__cancel">
+              <svg
+                width="10"
+                height="10"
+                viewBox="0 0 10 10"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0.5 9.5L9.5 0.5M9.5 9.5L0.5 0.5"
+                  stroke="#272525"
+                  stroke-linecap="round"
+                />
+              </svg>
+              Сбросить фильтры
+            </button>
+          </div>
+        </div>
+
+        <div class="dates" data-dates-unsorted>
+          <div class="dates__block">
+            <div class="dates__container container">
+              <h2 class="dates__title title2">Рекомендуем Вам</h2>
+              <button class="dates__arrow dates__arrow_prev">
+                <svg
+                  width="11"
+                  height="11"
+                  viewBox="0 0 11 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.89557 9.25852C6.22788 9.59083 6.22788 10.1296 5.89557 10.4619C5.56326 10.7942 5.02448 10.7942 4.69217 10.4619L0.292891 6.06265C-0.0976334 5.67213 -0.0976334 5.03896 0.292891 4.64844L4.69217 0.249163C5.02448 -0.0831482 5.56326 -0.0831479 5.89557 0.249163C6.22788 0.581474 6.22788 1.12026 5.89557 1.45257L2.84366 4.50448H10.1509C10.6209 4.50448 11.002 4.88552 11.002 5.35555C11.002 5.82557 10.6209 6.20661 10.1509 6.20661H2.84366L5.89557 9.25852Z"
+                    fill="white"
+                  />
+                </svg>
+              </button>
+              <div class="dates__slider swiper">
+                <div class="swiper-wrapper">
+                  <div class="booking-form swiper-slide booking-form_compact">
+                    <img src="./img/date.png" alt="" class="booking-form__image" />
+
+                    <ul class="booking-form__badges">
+                      <li class="booking-form__badge">м. Семёновская Ресторан «Cosmos Smart»</li>
+                      <li class="booking-form__badge">ВС, 1 февраля 18:00</li>
+                    </ul>
+
+                    <p class="booking-form__event-name">Speed Dating</p>
+                    <p class="booking-form__price-main">2499 руб.</p>
+
+                    <div class="booking-form__promo-badge">При оплате сейчас</div>
+
+                    <div class="booking-form__rates">
+                      <div class="booking-form__rate">
+                        <span>Акция для девушек:</span>
+                        <span>1899 руб.</span>
+                      </div>
+
+                      <div class="booking-form__rate">
+                        <span>Акция для мужчин:</span>
+                        <span>1899 руб.</span>
+                      </div>
+                    </div>
+
+                    <div class="booking-form__ages">
+                      <img src="./img/woman.png" alt="" /> 26-40 лет
+                      <img src="./img/man.png" alt="" /> 27-45 лет
+                    </div>
+
+                    <div class="booking-form__space"></div>
+
+                    <div class="booking-form__status">Остались места только для девушек!</div>
+
+                    <button
+                      class="booking-form__submit-btn button button_accent button_thin"
+                      data-popup-toggle="signup"
+                    >
+                      Записаться
+                    </button>
+                  </div>
+
+                  <div class="booking-form swiper-slide booking-form_compact">
+                    <img src="./img/date-2.png" alt="" class="booking-form__image" />
+
+                    <ul class="booking-form__badges">
+                      <li class="booking-form__badge">м. Тургеневская Бар «Nebar»</li>
+                      <li class="booking-form__badge">ВС, 1 февраля 18:00</li>
+                    </ul>
+
+                    <p class="booking-form__event-name">Большой Speed Dating</p>
+                    <p class="booking-form__price-main">2499 руб.</p>
+
+                    <div class="booking-form__ages">
+                      <img src="./img/woman.png" alt="" /> 20-32 лет
+                      <img src="./img/man.png" alt="" /> 22-33 лет
+                    </div>
+
+                    <div class="booking-form__space"></div>
+
+                    <div class="booking-form__status">Остались места только для девушек!</div>
+
+                    <button
+                      class="booking-form__submit-btn button button_accent button_thin"
+                      data-popup-toggle="signup"
+                    >
+                      Записаться
+                    </button>
+                  </div>
+
+                  <div class="booking-form swiper-slide booking-form_compact">
+                    <img src="./img/date-3.png" alt="" class="booking-form__image" />
+
+                    <ul class="booking-form__badges">
+                      <li class="booking-form__badge">м. Тургеневская Бар «Dream»</li>
+                      <li class="booking-form__badge">ВТ, 5 февраля 20:00</li>
+                    </ul>
+
+                    <p class="booking-form__event-name">Мафия</p>
+                    <p class="booking-form__price-main">1999 руб.</p>
+
+                    <div class="booking-form__promo-badge">При оплате сейчас</div>
+
+                    <div class="booking-form__rates">
+                      <div class="booking-form__rate">
+                        <span>Акция для девушек:</span>
+                        <span>1499 руб.</span>
+                      </div>
+
+                      <div class="booking-form__rate">
+                        <span>Акция для мужчин:</span>
+                        <span>1299 руб.</span>
+                      </div>
+                    </div>
+
+                    <div class="booking-form__ages">
+                      <img src="./img/woman.png" alt="" /> 20-32 лет
+                      <img src="./img/man.png" alt="" /> 20-33 лет
+                    </div>
+
+                    <div class="booking-form__space"></div>
+
+                    <div class="booking-form__status">Остались места только для девушек!</div>
+
+                    <button
+                      class="booking-form__submit-btn button button_accent button_thin"
+                      data-popup-toggle="signup"
+                    >
+                      Записаться
+                    </button>
+                  </div>
+
+                  <div class="booking-form swiper-slide booking-form_compact">
+                    <img src="./img/date.png" alt="" class="booking-form__image" />
+
+                    <ul class="booking-form__badges">
+                      <li class="booking-form__badge">м. Тургеневская Бар «Dream»</li>
+                      <li class="booking-form__badge">ВТ, 6 февраля 20:00</li>
+                    </ul>
+
+                    <p class="booking-form__event-name">Сапио свидания</p>
+                    <p class="booking-form__price-main">1999 руб.</p>
+
+                    <div class="booking-form__promo-badge">При оплате сейчас</div>
+
+                    <div class="booking-form__rates">
+                      <div class="booking-form__rate">
+                        <span>Акция для девушек:</span>
+                        <span>1499 руб.</span>
+                      </div>
+
+                      <div class="booking-form__rate">
+                        <span>Акция для мужчин:</span>
+                        <span>1299 руб.</span>
+                      </div>
+                    </div>
+
+                    <div class="booking-form__ages">
+                      <img src="./img/woman.png" alt="" /> 20-32 лет
+                      <img src="./img/man.png" alt="" /> 20-33 лет
+                    </div>
+
+                    <div class="booking-form__space"></div>
+
+                    <div class="booking-form__status">Остались места только для девушек!</div>
+
+                    <button
+                      class="booking-form__submit-btn button button_accent button_thin"
+                      data-popup-toggle="signup"
+                    >
+                      Записаться
+                    </button>
+                  </div>
+
+                  <div class="booking-form swiper-slide booking-form_compact">
+                    <img src="./img/date-2.png" alt="" class="booking-form__image" />
+
+                    <ul class="booking-form__badges">
+                      <li class="booking-form__badge">
+                        м. Воробьёвы Горы Ресторан «Board&amp;Вилка»
+                      </li>
+                      <li class="booking-form__badge">ВС, 7 февраля 18:00</li>
+                    </ul>
+
+                    <p class="booking-form__event-name">Speed Dating</p>
+                    <p class="booking-form__price-main">1799 руб.</p>
+
+                    <div class="booking-form__ages">
+                      <img src="./img/woman.png" alt="" /> 40-50 лет
+                      <img src="./img/man.png" alt="" /> 40-56 лет
+                    </div>
+
+                    <div class="booking-form__space"></div>
+
+                    <div class="booking-form__status">Остались места только для мужчин!</div>
+
+                    <button
+                      class="booking-form__submit-btn button button_accent button_thin"
+                      data-popup-toggle="signup"
+                    >
+                      Записаться
+                    </button>
+                  </div>
+
+                  <div class="booking-form swiper-slide booking-form_compact">
+                    <img src="./img/date.png" alt="" class="booking-form__image" />
+
+                    <ul class="booking-form__badges">
+                      <li class="booking-form__badge">
+                        м. Комсомольская Бар «Станция» в «Три вокзала. Депо»
+                      </li>
+                      <li class="booking-form__badge">ВС, 13 февраля 18:00</li>
+                    </ul>
+
+                    <p class="booking-form__event-name">Большой Speed Dating</p>
+                    <p class="booking-form__price-main">1699 руб.</p>
+
+                    <div class="booking-form__ages">
+                      <img src="./img/woman.png" alt="" /> 38-45 лет
+                      <img src="./img/man.png" alt="" /> 38-50 лет
+                    </div>
+
+                    <div class="booking-form__space"></div>
+
+                    <div class="booking-form__status">Остались места только для мужчин!</div>
+
+                    <button
+                      class="booking-form__submit-btn button button_accent button_thin"
+                      data-popup-toggle="signup"
+                    >
+                      Записаться
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <button class="dates__arrow dates__arrow_next">
+                <svg
+                  width="11"
+                  height="11"
+                  viewBox="0 0 11 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.89557 9.25852C6.22788 9.59083 6.22788 10.1296 5.89557 10.4619C5.56326 10.7942 5.02448 10.7942 4.69217 10.4619L0.292891 6.06265C-0.0976334 5.67213 -0.0976334 5.03896 0.292891 4.64844L4.69217 0.249163C5.02448 -0.0831482 5.56326 -0.0831479 5.89557 0.249163C6.22788 0.581474 6.22788 1.12026 5.89557 1.45257L2.84366 4.50448H10.1509C10.6209 4.50448 11.002 4.88552 11.002 5.35555C11.002 5.82557 10.6209 6.20661 10.1509 6.20661H2.84366L5.89557 9.25852Z"
+                    fill="white"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="dates__block dates__block_exclusive">
+            <div class="dates__container container">
+              <h2 class="dates__title title2">Эксклюзив</h2>
+              <button class="dates__arrow dates__arrow_prev">
+                <svg
+                  width="11"
+                  height="11"
+                  viewBox="0 0 11 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.89557 9.25852C6.22788 9.59083 6.22788 10.1296 5.89557 10.4619C5.56326 10.7942 5.02448 10.7942 4.69217 10.4619L0.292891 6.06265C-0.0976334 5.67213 -0.0976334 5.03896 0.292891 4.64844L4.69217 0.249163C5.02448 -0.0831482 5.56326 -0.0831479 5.89557 0.249163C6.22788 0.581474 6.22788 1.12026 5.89557 1.45257L2.84366 4.50448H10.1509C10.6209 4.50448 11.002 4.88552 11.002 5.35555C11.002 5.82557 10.6209 6.20661 10.1509 6.20661H2.84366L5.89557 9.25852Z"
+                    fill="white"
+                  />
+                </svg>
+              </button>
+              <div class="dates__slider swiper">
+                <div class="swiper-wrapper">
+                  <div class="booking-form swiper-slide booking-form_compact">
+                    <img src="./img/date-5.png" alt="" class="booking-form__image" />
+
+                    <ul class="booking-form__badges">
+                      <li class="booking-form__badge">
+                        м. Красносельская День всех влюбленных с FastLife! (~120 человек)
+                      </li>
+                      <li class="booking-form__badge">ВС, 15 февраля 18:00</li>
+                    </ul>
+
+                    <p class="booking-form__event-name">Мафия</p>
+                    <p class="booking-form__price-main">2599 руб.</p>
+
+                    <div class="booking-form__ages">
+                      <img src="./img/woman.png" alt="" /> 25-45 лет
+                      <img src="./img/man.png" alt="" /> 25-55 лет
+                    </div>
+
+                    <div class="booking-form__space"></div>
+
+                    <button
+                      class="booking-form__submit-btn button button_accent button_thin"
+                      data-popup-toggle="signup"
+                    >
+                      Записаться
+                    </button>
+                  </div>
+
+                  <div class="booking-form swiper-slide booking-form_compact">
+                    <img src="./img/date-3.png" alt="" class="booking-form__image" />
+
+                    <ul class="booking-form__badges">
+                      <li class="booking-form__badge">
+                        м. Красносельская Вечер Живых Знакомств для Православных
+                      </li>
+                      <li class="booking-form__badge">ВС, 7 февраля 18:00</li>
+                    </ul>
+
+                    <p class="booking-form__event-name">Сапио свидания</p>
+                    <p class="booking-form__price-main">1899 руб.</p>
+
+                    <div class="booking-form__ages">
+                      <img src="./img/woman.png" alt="" /> 20-40 лет
+                      <img src="./img/man.png" alt="" /> 25-45 лет
+                    </div>
+
+                    <div class="booking-form__space"></div>
+
+                    <div class="booking-form__status">Осталось 2 места только для мужчин!</div>
+
+                    <button
+                      class="booking-form__submit-btn button button_accent button_thin"
+                      data-popup-toggle="signup"
+                    >
+                      Записаться
+                    </button>
+                  </div>
+
+                  <div class="booking-form swiper-slide booking-form_compact">
+                    <img src="./img/date-4.png" alt="" class="booking-form__image" />
+
+                    <ul class="booking-form__badges">
+                      <li class="booking-form__badge">м. Красносельская БУНКЕР</li>
+                      <li class="booking-form__badge">ВС, 15 февраля 18:00</li>
+                    </ul>
+
+                    <p class="booking-form__event-name">Speed Dating</p>
+                    <p class="booking-form__price-main">2500 руб.</p>
+
+                    <div class="booking-form__ages">
+                      <img src="./img/woman.png" alt="" /> 22-39 лет
+                      <img src="./img/man.png" alt="" /> 31-50 лет
+                    </div>
+
+                    <div class="booking-form__space"></div>
+
+                    <div class="booking-form__status">
+                      МЕСТ НЕТ: мужчины 22-39 лет и девушки 31-50 лет
+                    </div>
+
+                    <button
+                      class="booking-form__submit-btn button button_accent button_thin"
+                      data-popup-toggle="signup"
+                    >
+                      Записаться
+                    </button>
+                  </div>
+
+                  <div class="booking-form swiper-slide booking-form_compact">
+                    <img src="./img/date.png" alt="" class="booking-form__image" />
+
+                    <ul class="booking-form__badges">
+                      <li class="booking-form__badge">
+                        м. Красносельская Случайные встречи от FastLife &amp; Minglo
+                      </li>
+                      <li class="booking-form__badge">ВС, 15 февраля 18:00</li>
+                    </ul>
+
+                    <p class="booking-form__event-name">Большой Speed Dating</p>
+                    <p class="booking-form__price-main">1199 руб.</p>
+
+                    <div class="booking-form__space"></div>
+
+                    <div class="booking-form__status">Тема вечера: Саморазвитие</div>
+
+                    <button
+                      class="booking-form__submit-btn button button_accent button_thin"
+                      data-popup-toggle="signup"
+                    >
+                      Записаться
+                    </button>
+                  </div>
+
+                  <div class="booking-form swiper-slide booking-form_compact">
+                    <img src="./img/date.png" alt="" class="booking-form__image" />
+
+                    <ul class="booking-form__badges">
+                      <li class="booking-form__badge">LOVE МАФИЯ</li>
+                      <li class="booking-form__badge">ВС, 07 февраля 18:00</li>
+                    </ul>
+
+                    <p class="booking-form__event-name">Мафия</p>
+                    <p class="booking-form__price-main">2500 руб.</p>
+
+                    <div class="booking-form__ages">
+                      <img src="./img/woman.png" alt="" /> 18-30 лет
+                      <img src="./img/man.png" alt="" /> 22-33 лет
+                    </div>
+
+                    <div class="booking-form__space"></div>
+
+                    <div class="booking-form__status">
+                      МЕСТ НЕТ: мужчины 22-39 лет и девушки 31-50 лет
+                    </div>
+
+                    <button
+                      class="booking-form__submit-btn button button_accent button_thin"
+                      data-popup-toggle="signup"
+                    >
+                      Записаться
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <button class="dates__arrow dates__arrow_next">
+                <svg
+                  width="11"
+                  height="11"
+                  viewBox="0 0 11 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.89557 9.25852C6.22788 9.59083 6.22788 10.1296 5.89557 10.4619C5.56326 10.7942 5.02448 10.7942 4.69217 10.4619L0.292891 6.06265C-0.0976334 5.67213 -0.0976334 5.03896 0.292891 4.64844L4.69217 0.249163C5.02448 -0.0831482 5.56326 -0.0831479 5.89557 0.249163C6.22788 0.581474 6.22788 1.12026 5.89557 1.45257L2.84366 4.50448H10.1509C10.6209 4.50448 11.002 4.88552 11.002 5.35555C11.002 5.82557 10.6209 6.20661 10.1509 6.20661H2.84366L5.89557 9.25852Z"
+                    fill="white"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="dates__block">
+            <div class="dates__container container">
+              <h2 class="dates__title title2">VIP</h2>
+              <button class="dates__arrow dates__arrow_prev">
+                <svg
+                  width="11"
+                  height="11"
+                  viewBox="0 0 11 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.89557 9.25852C6.22788 9.59083 6.22788 10.1296 5.89557 10.4619C5.56326 10.7942 5.02448 10.7942 4.69217 10.4619L0.292891 6.06265C-0.0976334 5.67213 -0.0976334 5.03896 0.292891 4.64844L4.69217 0.249163C5.02448 -0.0831482 5.56326 -0.0831479 5.89557 0.249163C6.22788 0.581474 6.22788 1.12026 5.89557 1.45257L2.84366 4.50448H10.1509C10.6209 4.50448 11.002 4.88552 11.002 5.35555C11.002 5.82557 10.6209 6.20661 10.1509 6.20661H2.84366L5.89557 9.25852Z"
+                    fill="white"
+                  />
+                </svg>
+              </button>
+              <div class="dates__slider swiper">
+                <div class="swiper-wrapper">
+                  <div class="booking-form swiper-slide booking-form_compact">
+                    <img src="./img/date.png" alt="" class="booking-form__image" />
+
+                    <ul class="booking-form__badges">
+                      <li class="booking-form__badge">VIP Speed Dating 35+</li>
+                      <li class="booking-form__badge">ВС, 8 февраля 18:00</li>
+                    </ul>
+
+                    <p class="booking-form__event-name">Сапио свидания</p>
+                    <p class="booking-form__price-main">2899 руб.</p>
+
+                    <div class="booking-form__ages">
+                      <img src="./img/woman.png" alt="" /> 30-45 лет
+                      <img src="./img/man.png" alt="" /> 35-56 лет
+                    </div>
+
+                    <div class="booking-form__space"></div>
+
+                    <div class="booking-form__status">Остались 3 места только для мужчин!</div>
+
+                    <button
+                      class="booking-form__submit-btn button button_accent button_thin"
+                      data-popup-toggle="signup"
+                    >
+                      Записаться
+                    </button>
+                  </div>
+
+                  <div class="booking-form swiper-slide booking-form_compact">
+                    <img src="./img/date-3.png" alt="" class="booking-form__image" />
+
+                    <ul class="booking-form__badges">
+                      <li class="booking-form__badge">GOKON ПРЕМИУМ</li>
+                      <li class="booking-form__badge">ВС, 8 февраля 18:00</li>
+                    </ul>
+
+                    <p class="booking-form__event-name">Speed Dating</p>
+                    <p class="booking-form__price-main">15000 руб.</p>
+
+                    <div class="booking-form__ages">
+                      <img src="./img/woman.png" alt="" /> 26-40 лет
+                      <img src="./img/man.png" alt="" /> 27-45 лет
+                    </div>
+
+                    <div class="booking-form__space"></div>
+
+                    <div class="booking-form__status">Остались места только для мужчин!</div>
+
+                    <button
+                      class="booking-form__submit-btn button button_accent button_thin"
+                      data-popup-toggle="signup"
+                    >
+                      Записаться
+                    </button>
+                  </div>
+
+                  <div class="booking-form swiper-slide booking-form_compact">
+                    <img src="./img/date.png" alt="" class="booking-form__image" />
+
+                    <ul class="booking-form__badges">
+                      <li class="booking-form__badge">VIP Speed Dating</li>
+                      <li class="booking-form__badge">ВС, 22 февраля 20:00</li>
+                    </ul>
+
+                    <p class="booking-form__event-name">Большой Speed Dating</p>
+                    <p class="booking-form__price-main">2899 руб.</p>
+
+                    <div class="booking-form__ages">
+                      <img src="./img/woman.png" alt="" /> 20-40 лет
+                      <img src="./img/man.png" alt="" /> 25-45 лет
+                    </div>
+
+                    <div class="booking-form__space"></div>
+
+                    <div class="booking-form__status">Остались 3 места только для мужчин!</div>
+
+                    <button
+                      class="booking-form__submit-btn button button_accent button_thin"
+                      data-popup-toggle="signup"
+                    >
+                      Записаться
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <button class="dates__arrow dates__arrow_next">
+                <svg
+                  width="11"
+                  height="11"
+                  viewBox="0 0 11 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.89557 9.25852C6.22788 9.59083 6.22788 10.1296 5.89557 10.4619C5.56326 10.7942 5.02448 10.7942 4.69217 10.4619L0.292891 6.06265C-0.0976334 5.67213 -0.0976334 5.03896 0.292891 4.64844L4.69217 0.249163C5.02448 -0.0831482 5.56326 -0.0831479 5.89557 0.249163C6.22788 0.581474 6.22788 1.12026 5.89557 1.45257L2.84366 4.50448H10.1509C10.6209 4.50448 11.002 4.88552 11.002 5.35555C11.002 5.82557 10.6209 6.20661 10.1509 6.20661H2.84366L5.89557 9.25852Z"
+                    fill="white"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="dates" data-dates-sorted>
+          <div class="dates__container container">
+            <div class="dates__grid">
+              <div
+                class="booking-form booking-form_compact"
+                data-date="18-2-2026"
+                data-gender="f"
+                data-man-age="27-45"
+                data-woman-age="26-40"
+                data-category="speed-dating"
+                data-id="739990"
+              >
+                <div class="booking-form__image-wrapper">
+                  <img src="./img/date.png" alt="" class="booking-form__image" />
+                </div>
+
+                <ul class="booking-form__badges">
+                  <li class="booking-form__badge">м. Семёновская Ресторан «Cosmos Smart»</li>
+                  <li class="booking-form__badge">ВС, 1 февраля 18:00</li>
+                </ul>
+
+                <p class="booking-form__event-name">Speed Dating</p>
+                <p class="booking-form__price-main">2499 руб.</p>
+
+                <div class="booking-form__promo-badge">При оплате сейчас</div>
+
+                <div class="booking-form__rates">
+                  <div class="booking-form__rate">
+                    <span>Акция для девушек:</span>
+                    <span>1899 руб.</span>
+                  </div>
+
+                  <div class="booking-form__rate">
+                    <span>Акция для мужчин:</span>
+                    <span>1899 руб.</span>
+                  </div>
+                </div>
+
+                <div class="booking-form__ages">
+                  <img src="./img/woman.png" alt="" /> 26-40 лет
+                  <img src="./img/man.png" alt="" /> 27-45 лет
+                </div>
+
+                <div class="booking-form__space"></div>
+
+                <div class="booking-form__status">Остались места только для девушек!</div>
+
+                <button
+                  class="booking-form__submit-btn button button_accent button_thin"
+                  data-popup-toggle="signup"
+                >
+                  Записаться
+                </button>
+              </div>
+
+              <div
+                class="booking-form booking-form_compact"
+                data-date="19-2-2026"
+                data-gender="f"
+                data-man-age="22-33"
+                data-woman-age="20-32"
+                data-category="large-speed-dating"
+                data-id="691316"
+              >
+                <div class="booking-form__image-wrapper">
+                  <img src="./img/date-2.png" alt="" class="booking-form__image" />
+                </div>
+
+                <ul class="booking-form__badges">
+                  <li class="booking-form__badge">м. Тургеневская Бар «Nebar»</li>
+                  <li class="booking-form__badge">ВС, 1 февраля 18:00</li>
+                </ul>
+
+                <p class="booking-form__event-name">Большой Speed Dating</p>
+                <p class="booking-form__price-main">2499 руб.</p>
+
+                <div class="booking-form__ages">
+                  <img src="./img/woman.png" alt="" /> 20-32 лет
+                  <img src="./img/man.png" alt="" /> 22-33 лет
+                </div>
+
+                <div class="booking-form__space"></div>
+
+                <div class="booking-form__status">Остались места только для девушек!</div>
+
+                <button
+                  class="booking-form__submit-btn button button_accent button_thin"
+                  data-popup-toggle="signup"
+                >
+                  Записаться
+                </button>
+              </div>
+
+              <div
+                class="booking-form booking-form_compact"
+                data-date="24-2-2026"
+                data-gender="f"
+                data-man-age="20-33"
+                data-woman-age="20-32 "
+                data-category="mafia"
+                data-id="681450"
+              >
+                <div class="booking-form__image-wrapper">
+                  <img src="./img/date-3.png" alt="" class="booking-form__image" />
+                </div>
+
+                <ul class="booking-form__badges">
+                  <li class="booking-form__badge">м. Тургеневская Бар «Dream»</li>
+                  <li class="booking-form__badge">ВТ, 5 февраля 20:00</li>
+                </ul>
+
+                <p class="booking-form__event-name">Мафия</p>
+                <p class="booking-form__price-main">1999 руб.</p>
+
+                <div class="booking-form__promo-badge">При оплате сейчас</div>
+
+                <div class="booking-form__rates">
+                  <div class="booking-form__rate">
+                    <span>Акция для девушек:</span>
+                    <span>1499 руб.</span>
+                  </div>
+
+                  <div class="booking-form__rate">
+                    <span>Акция для мужчин:</span>
+                    <span>1299 руб.</span>
+                  </div>
+                </div>
+
+                <div class="booking-form__ages">
+                  <img src="./img/woman.png" alt="" /> 20-32 лет
+                  <img src="./img/man.png" alt="" /> 20-33 лет
+                </div>
+
+                <div class="booking-form__space"></div>
+
+                <div class="booking-form__status">Остались места только для девушек!</div>
+
+                <button
+                  class="booking-form__submit-btn button button_accent button_thin"
+                  data-popup-toggle="signup"
+                >
+                  Записаться
+                </button>
+              </div>
+
+              <div
+                class="booking-form booking-form_compact"
+                data-date="25-2-2026"
+                data-gender=""
+                data-man-age="20-33"
+                data-woman-age="20-32 "
+                data-category="sapio-dating"
+                data-id="175477"
+              >
+                <div class="booking-form__image-wrapper">
+                  <img src="./img/date.png" alt="" class="booking-form__image" />
+                </div>
+
+                <ul class="booking-form__badges">
+                  <li class="booking-form__badge">м. Тургеневская Бар «Dream»</li>
+                  <li class="booking-form__badge">ВТ, 6 февраля 20:00</li>
+                </ul>
+
+                <p class="booking-form__event-name">Сапио свидания</p>
+                <p class="booking-form__price-main">1999 руб.</p>
+
+                <div class="booking-form__promo-badge">При оплате сейчас</div>
+
+                <div class="booking-form__rates">
+                  <div class="booking-form__rate">
+                    <span>Акция для девушек:</span>
+                    <span>1499 руб.</span>
+                  </div>
+
+                  <div class="booking-form__rate">
+                    <span>Акция для мужчин:</span>
+                    <span>1299 руб.</span>
+                  </div>
+                </div>
+
+                <div class="booking-form__ages">
+                  <img src="./img/woman.png" alt="" /> 20-32 лет
+                  <img src="./img/man.png" alt="" /> 20-33 лет
+                </div>
+
+                <div class="booking-form__space"></div>
+
+                <div class="booking-form__status">Остались места только для девушек!</div>
+
+                <button
+                  class="booking-form__submit-btn button button_accent button_thin"
+                  data-popup-toggle="signup"
+                >
+                  Записаться
+                </button>
+              </div>
+
+              <div
+                class="booking-form booking-form_compact"
+                data-date="24-2-2026"
+                data-gender="m"
+                data-man-age="40-56"
+                data-woman-age="40-50"
+                data-category="speed-dating"
+                data-id="609627"
+              >
+                <div class="booking-form__image-wrapper">
+                  <img src="./img/date-2.png" alt="" class="booking-form__image" />
+                </div>
+
+                <ul class="booking-form__badges">
+                  <li class="booking-form__badge">м. Воробьёвы Горы Ресторан «Board&amp;Вилка»</li>
+                  <li class="booking-form__badge">ВС, 7 февраля 18:00</li>
+                </ul>
+
+                <p class="booking-form__event-name">Speed Dating</p>
+                <p class="booking-form__price-main">1799 руб.</p>
+
+                <div class="booking-form__ages">
+                  <img src="./img/woman.png" alt="" /> 40-50 лет
+                  <img src="./img/man.png" alt="" /> 40-56 лет
+                </div>
+
+                <div class="booking-form__space"></div>
+
+                <div class="booking-form__status">Остались места только для мужчин!</div>
+
+                <button
+                  class="booking-form__submit-btn button button_accent button_thin"
+                  data-popup-toggle="signup"
+                >
+                  Записаться
+                </button>
+              </div>
+
+              <div
+                class="booking-form booking-form_compact"
+                data-date="25-2-2026"
+                data-gender=""
+                data-man-age="38-50"
+                data-woman-age="38-45"
+                data-category="large-speed-dating"
+                data-id="495767"
+              >
+                <div class="booking-form__image-wrapper">
+                  <img src="./img/date.png" alt="" class="booking-form__image" />
+                </div>
+
+                <ul class="booking-form__badges">
+                  <li class="booking-form__badge">
+                    м. Комсомольская Бар «Станция» в «Три вокзала. Депо»
+                  </li>
+                  <li class="booking-form__badge">ВС, 13 февраля 18:00</li>
+                </ul>
+
+                <p class="booking-form__event-name">Большой Speed Dating</p>
+                <p class="booking-form__price-main">1699 руб.</p>
+
+                <div class="booking-form__ages">
+                  <img src="./img/woman.png" alt="" /> 38-45 лет
+                  <img src="./img/man.png" alt="" /> 38-50 лет
+                </div>
+
+                <div class="booking-form__space"></div>
+
+                <div class="booking-form__status">Остались места только для мужчин!</div>
+
+                <button
+                  class="booking-form__submit-btn button button_accent button_thin"
+                  data-popup-toggle="signup"
+                >
+                  Записаться
+                </button>
+              </div>
+
+              <div
+                class="booking-form booking-form_compact"
+                data-date="25-2-2026"
+                data-gender="m"
+                data-man-age="25-55"
+                data-woman-age="25-45"
+                data-category="mafia"
+                data-id="916968"
+              >
+                <div class="booking-form__image-wrapper">
+                  <img src="./img/date-5.png" alt="" class="booking-form__image" />
+                </div>
+
+                <ul class="booking-form__badges">
+                  <li class="booking-form__badge">
+                    м. Красносельская День всех влюбленных с FastLife! (~120 человек)
+                  </li>
+                  <li class="booking-form__badge">ВС, 15 февраля 18:00</li>
+                </ul>
+
+                <p class="booking-form__event-name">Мафия</p>
+                <p class="booking-form__price-main">2599 руб.</p>
+
+                <div class="booking-form__ages">
+                  <img src="./img/woman.png" alt="" /> 25-45 лет
+                  <img src="./img/man.png" alt="" /> 25-55 лет
+                </div>
+
+                <div class="booking-form__space"></div>
+
+                <button
+                  class="booking-form__submit-btn button button_accent button_thin"
+                  data-popup-toggle="signup"
+                >
+                  Записаться
+                </button>
+              </div>
+
+              <div
+                class="booking-form booking-form_compact"
+                data-date=""
+                data-gender="sapio-dating"
+                data-man-age="25-45"
+                data-woman-age="20-40"
+                data-category=""
+                data-id="224005"
+              >
+                <div class="booking-form__image-wrapper">
+                  <img src="./img/date-3.png" alt="" class="booking-form__image" />
+                </div>
+
+                <ul class="booking-form__badges">
+                  <li class="booking-form__badge">
+                    м. Красносельская Вечер Живых Знакомств для Православных
+                  </li>
+                  <li class="booking-form__badge">ВС, 7 февраля 18:00</li>
+                </ul>
+
+                <p class="booking-form__event-name"></p>
+                <p class="booking-form__price-main">1899 руб.</p>
+
+                <div class="booking-form__ages">
+                  <img src="./img/woman.png" alt="" /> 20-40 лет
+                  <img src="./img/man.png" alt="" /> 25-45 лет
+                </div>
+
+                <div class="booking-form__space"></div>
+
+                <div class="booking-form__status">Осталось 2 места только для мужчин!</div>
+
+                <button
+                  class="booking-form__submit-btn button button_accent button_thin"
+                  data-popup-toggle="signup"
+                >
+                  Записаться
+                </button>
+              </div>
+
+              <div
+                class="booking-form booking-form_compact"
+                data-date="25-2-2026"
+                data-gender="m"
+                data-man-age="31-50"
+                data-woman-age="22-39"
+                data-category="speed-dating"
+                data-id="540599"
+              >
+                <div class="booking-form__image-wrapper">
+                  <img src="./img/date-4.png" alt="" class="booking-form__image" />
+                </div>
+
+                <ul class="booking-form__badges">
+                  <li class="booking-form__badge">м. Красносельская БУНКЕР</li>
+                  <li class="booking-form__badge">ВС, 15 февраля 18:00</li>
+                </ul>
+
+                <p class="booking-form__event-name">Speed Dating</p>
+                <p class="booking-form__price-main">2500 руб.</p>
+
+                <div class="booking-form__ages">
+                  <img src="./img/woman.png" alt="" /> 22-39 лет
+                  <img src="./img/man.png" alt="" /> 31-50 лет
+                </div>
+
+                <div class="booking-form__space"></div>
+
+                <div class="booking-form__status">
+                  МЕСТ НЕТ: мужчины 22-39 лет и девушки 31-50 лет
+                </div>
+
+                <button
+                  class="booking-form__submit-btn button button_accent button_thin"
+                  data-popup-toggle="signup"
+                >
+                  Записаться
+                </button>
+              </div>
+
+              <div
+                class="booking-form booking-form_compact"
+                data-date="26-2-2026"
+                data-gender="m"
+                data-man-age=""
+                data-woman-age=""
+                data-category="large-speed-dating"
+                data-id="200535"
+              >
+                <div class="booking-form__image-wrapper">
+                  <img src="./img/date.png" alt="" class="booking-form__image" />
+                </div>
+
+                <ul class="booking-form__badges">
+                  <li class="booking-form__badge">
+                    м. Красносельская Случайные встречи от FastLife &amp; Minglo
+                  </li>
+                  <li class="booking-form__badge">ВС, 15 февраля 18:00</li>
+                </ul>
+
+                <p class="booking-form__event-name">Большой Speed Dating</p>
+                <p class="booking-form__price-main">1199 руб.</p>
+
+                <div class="booking-form__space"></div>
+
+                <div class="booking-form__status">Тема вечера: Саморазвитие</div>
+
+                <button
+                  class="booking-form__submit-btn button button_accent button_thin"
+                  data-popup-toggle="signup"
+                >
+                  Записаться
+                </button>
+              </div>
+
+              <div
+                class="booking-form booking-form_compact"
+                data-date="27-2-2026"
+                data-gender="m"
+                data-man-age="22-33"
+                data-woman-age="18-30"
+                data-category="mafia"
+                data-id="479697"
+              >
+                <div class="booking-form__image-wrapper">
+                  <img src="./img/date.png" alt="" class="booking-form__image" />
+                </div>
+
+                <ul class="booking-form__badges">
+                  <li class="booking-form__badge">LOVE МАФИЯ</li>
+                  <li class="booking-form__badge">ВС, 07 февраля 18:00</li>
+                </ul>
+
+                <p class="booking-form__event-name">Мафия</p>
+                <p class="booking-form__price-main">2500 руб.</p>
+
+                <div class="booking-form__ages">
+                  <img src="./img/woman.png" alt="" /> 18-30 лет
+                  <img src="./img/man.png" alt="" /> 22-33 лет
+                </div>
+
+                <div class="booking-form__space"></div>
+
+                <div class="booking-form__status">
+                  МЕСТ НЕТ: мужчины 22-39 лет и девушки 31-50 лет
+                </div>
+
+                <button
+                  class="booking-form__submit-btn button button_accent button_thin"
+                  data-popup-toggle="signup"
+                >
+                  Записаться
+                </button>
+              </div>
+
+              <div
+                class="booking-form booking-form_compact"
+                data-date="24-2-2026"
+                data-gender="m"
+                data-man-age="35-56"
+                data-woman-age="30-45"
+                data-category="sapio-dating"
+                data-id="811539"
+              >
+                <div class="booking-form__image-wrapper">
+                  <img src="./img/date.png" alt="" class="booking-form__image" />
+                </div>
+
+                <ul class="booking-form__badges">
+                  <li class="booking-form__badge">VIP Speed Dating 35+</li>
+                  <li class="booking-form__badge">ВС, 8 февраля 18:00</li>
+                </ul>
+
+                <p class="booking-form__event-name">Сапио свидания</p>
+                <p class="booking-form__price-main">2899 руб.</p>
+
+                <div class="booking-form__ages">
+                  <img src="./img/woman.png" alt="" /> 30-45 лет
+                  <img src="./img/man.png" alt="" /> 35-56 лет
+                </div>
+
+                <div class="booking-form__space"></div>
+
+                <div class="booking-form__status">Остались 3 места только для мужчин!</div>
+
+                <button
+                  class="booking-form__submit-btn button button_accent button_thin"
+                  data-popup-toggle="signup"
+                >
+                  Записаться
+                </button>
+              </div>
+
+              <div
+                class="booking-form booking-form_compact"
+                data-date="25-2-2026"
+                data-gender="m"
+                data-man-age="27-45"
+                data-woman-age="26-40"
+                data-category="speed-dating"
+                data-id="928098"
+              >
+                <div class="booking-form__image-wrapper">
+                  <img src="./img/date-3.png" alt="" class="booking-form__image" />
+                </div>
+
+                <ul class="booking-form__badges">
+                  <li class="booking-form__badge">GOKON ПРЕМИУМ</li>
+                  <li class="booking-form__badge">ВС, 8 февраля 18:00</li>
+                </ul>
+
+                <p class="booking-form__event-name">Speed Dating</p>
+                <p class="booking-form__price-main">15000 руб.</p>
+
+                <div class="booking-form__ages">
+                  <img src="./img/woman.png" alt="" /> 26-40 лет
+                  <img src="./img/man.png" alt="" /> 27-45 лет
+                </div>
+
+                <div class="booking-form__space"></div>
+
+                <div class="booking-form__status">Остались места только для мужчин!</div>
+
+                <button
+                  class="booking-form__submit-btn button button_accent button_thin"
+                  data-popup-toggle="signup"
+                >
+                  Записаться
+                </button>
+              </div>
+
+              <div
+                class="booking-form booking-form_compact"
+                data-date="26-2-2026"
+                data-gender="m"
+                data-man-age="25-45"
+                data-woman-age="20-40"
+                data-category="large-speed-dating"
+                data-id="710595"
+              >
+                <div class="booking-form__image-wrapper">
+                  <img src="./img/date.png" alt="" class="booking-form__image" />
+                </div>
+
+                <ul class="booking-form__badges">
+                  <li class="booking-form__badge">VIP Speed Dating</li>
+                  <li class="booking-form__badge">ВС, 22 февраля 20:00</li>
+                </ul>
+
+                <p class="booking-form__event-name">Большой Speed Dating</p>
+                <p class="booking-form__price-main">2899 руб.</p>
+
+                <div class="booking-form__ages">
+                  <img src="./img/woman.png" alt="" /> 20-40 лет
+                  <img src="./img/man.png" alt="" /> 25-45 лет
+                </div>
+
+                <div class="booking-form__space"></div>
+
+                <div class="booking-form__status">Остались 3 места только для мужчин!</div>
+
+                <button
+                  class="booking-form__submit-btn button button_accent button_thin"
+                  data-popup-toggle="signup"
+                >
+                  Записаться
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="dates-button">
+          <button class="dates-button__button button button_accent button_thin">
+            Все мероприятия
+          </button>
+        </div>
+
+        <div class="help-choose">
+          <div class="help-choose__container container">
+            <h2 class="help-choose__title">Не нашли подходящее?</h2>
+            <p class="help-choose__description">
+              Заполните заявку и менеджер поможет подобрать мероприятие
+            </p>
+            <div class="help-choose__space"></div>
+            <button class="help-choose__button button button_accent">Записаться</button>
+          </div>
+        </div>
+
+        <div class="promo">
+          <div class="promo__container container">
+            <h2 class="promo__title">Баннер<br />с акцией</h2>
+          </div>
+        </div>
+
+        <div class="for-whom">
+          <div class="for-whom__container container">
+            <div class="for-whom__header">
+              <h2 class="for-whom__title">Для кого<br />быстрые свидания?</h2>
+              <h3 class="for-whom__subtitle">Наш формат подойдет вам, если вы:</h3>
+            </div>
+
+            <div class="for-whom__grid">
+              <label class="for-whom__card">
+                <input type="checkbox" name="" id="" />
+                <h4 class="for-whom__card-title">Цените свое время</h4>
+                <p class="for-whom__description">
+                  Быстрые свидания - это 10-15 реальных встреч за один вечер вместо бесконечных
+                  переписок
+                </p>
+              </label>
+              <label class="for-whom__card">
+                <input type="checkbox" name="" id="" />
+                <h4 class="for-whom__card-title">Любите живое общение</h4>
+                <p class="for-whom__description">
+                  Ощутите настоящую химию: глаза, голос, настроение - то, что не передает чат
+                </p>
+              </label>
+              <label class="for-whom__card">
+                <input type="checkbox" name="" id="" />
+                <h4 class="for-whom__card-title">Хотите новый опыт</h4>
+                <p class="for-whom__description">
+                  Интерактив, легкость, азарт - все это создает уникальную атмосферу вечера
+                </p>
+              </label>
+              <label class="for-whom__card">
+                <input type="checkbox" name="" id="" />
+                <h4 class="for-whom__card-title">Ищете серьезные или легкие знакомства</h4>
+                <p class="for-whom__description">
+                  На мероприятии бывают и те, кто хочет семью, и те, кто ищет интересное общение
+                </p>
+              </label>
+              <label class="for-whom__card">
+                <input type="checkbox" name="" id="" />
+                <h4 class="for-whom__card-title">Разочаровались в онлайн-дейтинге</h4>
+                <p class="for-whom__description">
+                  Онлайн-приложения не работают? Здесь вы встречаетесь с людьми сразу и без фильтров
+                </p>
+              </label>
+              <img class="for-whom__placeholder" src="./img/heart.svg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="why-us">
+          <div class="why-us__container container">
+            <div class="h2 why-us__title">Почему выбирают FastLife</div>
+            <p class="why-us__description">
+              FastLife - единственная компания в Москве, которая самостоятельно проводит Быстрые
+              Свидания для Вас и собирает более 400 человек в неделю
+            </p>
+
+            <label class="why-us__card">
+              <input type="checkbox" />
+              <div class="why-us__card-content">
+                <h3 class="why-us__card-title">
+                  Новые эмоции и впечатления<br />в комфортной среде.
+                </h3>
+                <div class="why-us__blocks">
+                  <p class="why-us__block">
+                    Знакомство с новыми людьми  в нашем клубе— это выход за рамки привычного
+                    комфорта. Это новый положительный опыт и неповторимые впечатления от жизни.
+                  </p>
+                  <p class="why-us__block">
+                    Мы сами проводим вечеринки быстрых свиданий и лично отвечаем за качество нашего
+                    сервиса, чтобы вы получали только положительные эмоции от знакомства.
+                  </p>
+                </div>
+              </div>
+              <div class="why-us__image-container">
+                <img src="./img/why-01.png" alt="" class="why-us__card-image" />
+              </div>
+            </label>
+            <label class="why-us__card">
+              <input type="checkbox" />
+              <div class="why-us__card-content">
+                <h3 class="why-us__card-title">Уважение и возможность быть<br />самим собой.</h3>
+                <div class="why-us__blocks">
+                  <p class="why-us__block">
+                    Желание познакомиться и найти свою любовь — естественная потребность  и ценность
+                    в жизни каждого человека. Тот, — кто это понимает и предпринимает шаги  в этом
+                    направлении, уже достоин уважения.
+                  </p>
+                  <p class="why-us__block">
+                    Мы создаем среду на вечерах знакомств, в которой вы можете быть самим собой,
+                    выражать свои интересы, симпатии, уважая мнения и взгляды других людей.
+                  </p>
+                </div>
+              </div>
+              <div class="why-us__image-container">
+                <img src="./img/why-02.png" alt="" class="why-us__card-image" />
+              </div>
+            </label>
+            <label class="why-us__card">
+              <input type="checkbox" />
+              <div class="why-us__card-content">
+                <h3 class="why-us__card-title">
+                  Обратная связь — залог успешных<br />отношений в семье и бизнесе.
+                </h3>
+                <div class="why-us__blocks">
+                  <p class="why-us__block">
+                    Как часто нам говорят: «Ты хороший человек, но с тобой на свидание  не пойду»? И
+                    мы остаемся в неведении: что именно было не так?
+                  </p>
+                  <p class="why-us__block">
+                    На наших вечерах знакомств в Москве вы можете получить обратную связь, чтобы
+                    узнать свои сильные  и слабые стороны для эффективного знакомства.
+                  </p>
+                </div>
+              </div>
+
+              <div class="why-us__image-container">
+                <img src="./img/why-03.png" alt="" class="why-us__card-image" />
+              </div>
+            </label>
+
+            <div class="why-us__cards">
+              <div class="why-us__Card why-us__restriction">
+                <h3 class="why-us__card-title">
+                  Для участия в мероприятиях вы не должны состоять в браке или в отношениях.
+                </h3>
+                <p class="why-us__block">
+                  Мы помогаем одиноким людям, которые хотят встретить свою любовь и свою половинку.
+                </p>
+              </div>
+              <div class="why-us__Card why-us__target">
+                <div class="why-us__content">
+                  <h3 class="why-us__card-title">Запишитесь в 1 клик!</h3>
+                  <p class="why-us__block">
+                    Просто оставьте свой номер телефона,<br />и мы свяжемся с вами, чтобы
+                    записать<br />вас на удобное время мероприятия!
+                  </p>
+                  <button class="why-us__button button button_white button_almost-thin">
+                    Получить приглашение
+                  </button>
+                </div>
+
+                <svg
+                  class="why-us__target-image"
+                  width="160"
+                  height="142"
+                  viewBox="0 0 160 142"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M52.4906 142C47.2032 142 41.9157 139.051 39.3777 133.995C35.5707 126.832 38.5317 117.774 45.9342 114.192C77.8705 97.971 125.246 65.7392 130.111 45.0941C130.745 41.9341 130.322 39.8274 128.63 37.5101C124.823 32.4542 122.285 32.6648 121.439 32.6648C112.979 32.8755 98.5974 46.7794 91.6179 56.8913C88.8684 60.8939 84.2155 63.2113 79.351 63.2113C74.4865 63.2113 69.8335 60.6833 67.084 56.6806C58.6241 44.0407 43.8192 29.7155 36.2052 29.5048C35.5707 29.5048 33.8787 29.5048 31.3408 33.0861C29.8603 35.1928 29.4373 37.0888 29.8603 39.4061C31.9752 50.9927 50.7987 66.1606 59.0471 71.4272C66.0266 75.8512 67.9301 84.9098 63.4886 91.8617C59.0471 98.8137 49.9527 100.71 42.9732 96.2857C39.1662 93.9684 5.96092 72.0592 0.673454 45.0941C-1.23003 34.5608 0.884965 24.6595 7.22993 15.8116C16.9589 2.32904 28.5913 -0.198942 36.8397 0.0117226C53.9711 0.433053 69.4105 13.4943 79.774 25.0809C89.7144 14.9689 104.519 3.59303 120.805 3.1717C129.265 2.96103 141.743 5.69968 152.318 20.0249C159.298 29.2942 161.624 40.4594 158.874 52.046C149.146 93.3364 74.275 133.152 59.4701 140.736C56.9321 141.579 54.6056 142 52.4906 142Z"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="reviews">
+          <img src="./img/rounded-block.png" alt="" class="reviews__round" />
+          <div class="reviews__gray">
+            <div class="reviews__container container">
+              <h2 class="reviews__title">Отзывы</h2>
+
+              <div class="reviews__slider swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"></div>
+                  <div class="swiper-slide reviews__review">
+                    <video
+                      poster="./img/Rectangle 306.png"
+                      class="reviews__video video"
+                      src="./img/1477167_People_Business_3840x2160.mov"
+                    ></video>
+                    <h3 class="reviews__subtitle">30 апреля 2024 года</h3>
+                  </div>
+                  <div class="swiper-slide reviews__review">
+                    <video
+                      poster="./img/Rectangle 306.png"
+                      class="reviews__video video"
+                      src="./img/1477167_People_Business_3840x2160.mov"
+                    ></video>
+                    <h3 class="reviews__subtitle">30 апреля 2024 года</h3>
+                  </div>
+                  <div class="swiper-slide reviews__review">
+                    <video
+                      poster="./img/Rectangle 306.png"
+                      class="reviews__video video"
+                      src="./img/1477167_People_Business_3840x2160.mov"
+                    ></video>
+                    <h3 class="reviews__subtitle">30 апреля 2024 года</h3>
+                  </div>
+                  <div class="swiper-slide reviews__review">
+                    <video
+                      poster="./img/Rectangle 306.png"
+                      class="reviews__video video"
+                      src="./img/1477167_People_Business_3840x2160.mov"
+                    ></video>
+                    <h3 class="reviews__subtitle">30 апреля 2024 года</h3>
+                  </div>
+                  <div class="swiper-slide reviews__review">
+                    <video
+                      poster="./img/Rectangle 306.png"
+                      class="reviews__video video"
+                      src="./img/1477167_People_Business_3840x2160.mov"
+                    ></video>
+                    <h3 class="reviews__subtitle">30 апреля 2024 года</h3>
+                  </div>
+                  <div class="swiper-slide reviews__review">
+                    <video
+                      poster="./img/Rectangle 306.png"
+                      class="reviews__video video"
+                      src="./img/1477167_People_Business_3840x2160.mov"
+                    ></video>
+                    <h3 class="reviews__subtitle">30 апреля 2024 года</h3>
+                  </div>
+                  <div class="swiper-slide reviews__review">
+                    <video
+                      poster="./img/Rectangle 306.png"
+                      class="reviews__video video"
+                      src="./img/1477167_People_Business_3840x2160.mov"
+                    ></video>
+                    <h3 class="reviews__subtitle">30 апреля 2024 года</h3>
+                  </div>
+                  <div class="swiper-slide"></div>
+                </div>
+              </div>
+
+              <a href="#" class="reviews__button button button_white button_almost-thin"
+                >Все отзывы</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="pairs">
+          <div class="pairs__container container">
+            <h2 class="pairs__title reviews__title">Наши пары</h2>
+
+            <button class="pairs__arrow pairs__arrow_prev">
+              <svg
+                width="11"
+                height="11"
+                viewBox="0 0 11 11"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5.89557 9.25852C6.22788 9.59083 6.22788 10.1296 5.89557 10.4619C5.56326 10.7942 5.02448 10.7942 4.69217 10.4619L0.292891 6.06265C-0.0976334 5.67213 -0.0976334 5.03896 0.292891 4.64844L4.69217 0.249163C5.02448 -0.0831482 5.56326 -0.0831479 5.89557 0.249163C6.22788 0.581474 6.22788 1.12026 5.89557 1.45257L2.84366 4.50448H10.1509C10.6209 4.50448 11.002 4.88552 11.002 5.35555C11.002 5.82557 10.6209 6.20661 10.1509 6.20661H2.84366L5.89557 9.25852Z"
+                  fill="white"
+                />
+              </svg>
+            </button>
+
+            <div class="pairs__slider swiper">
+              <div class="swiper-wrapper">
+                <div class="pairs__pair swiper-slide">
+                  <img src="./img/pair-01.png" alt="" class="pairs__image" />
+                  <h3 class="pairs__subtitle">Катя и Андрей</h3>
+                  <small class="pairs__excerpt"
+                    >Познакомились в феврале - в мае уже съехались.</small
+                  >
+                  <p class="pairs__description">
+                    “Без этого вечера мы бы точно прошли мимо друг друга”
+                  </p>
+                  <button
+                    class="pairs__button button button_accent button_outline button_almost-thin"
+                  >
+                    Прочитать историю
+                  </button>
+                </div>
+                <div class="pairs__pair swiper-slide">
+                  <img src="./img/pair-02.png" alt="" class="pairs__image" />
+                  <h3 class="pairs__subtitle">Марина и Олег</h3>
+                  <small class="pairs__excerpt"
+                    >Ушли с вечеринки с первым свиданием на следующий день.</small
+                  >
+                  <p class="pairs__description">“Было чувство, что мы знакомы всю жизнь”</p>
+                  <button
+                    class="pairs__button button button_accent button_outline button_almost-thin"
+                  >
+                    Прочитать историю
+                  </button>
+                </div>
+                <div class="pairs__pair swiper-slide">
+                  <img src="./img/pair-03.png" alt="" class="pairs__image" />
+                  <h3 class="pairs__subtitle">Аня и Тимур</h3>
+                  <small class="pairs__excerpt"
+                    >Встретились у нас - сыграли свадьбу через год.</small
+                  >
+                  <p class="pairs__description">
+                    “Спасибо за то, что вы делаете! Это реально работает!”
+                  </p>
+                  <button
+                    class="pairs__button button button_accent button_outline button_almost-thin"
+                  >
+                    Прочитать историю
+                  </button>
+                </div>
+                <div class="pairs__pair swiper-slide">
+                  <img src="./img/pair-01.png" alt="" class="pairs__image" />
+                  <h3 class="pairs__subtitle">Катя и Андрей</h3>
+                  <small class="pairs__excerpt"
+                    >Познакомились в феврале - в мае уже съехались.</small
+                  >
+                  <p class="pairs__description">
+                    “Без этого вечера мы бы точно прошли мимо друг друга”
+                  </p>
+                  <button
+                    class="pairs__button button button_accent button_outline button_almost-thin"
+                  >
+                    Прочитать историю
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <button class="pairs__arrow pairs__arrow_next">
+              <svg
+                width="11"
+                height="11"
+                viewBox="0 0 11 11"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5.89557 9.25852C6.22788 9.59083 6.22788 10.1296 5.89557 10.4619C5.56326 10.7942 5.02448 10.7942 4.69217 10.4619L0.292891 6.06265C-0.0976334 5.67213 -0.0976334 5.03896 0.292891 4.64844L4.69217 0.249163C5.02448 -0.0831482 5.56326 -0.0831479 5.89557 0.249163C6.22788 0.581474 6.22788 1.12026 5.89557 1.45257L2.84366 4.50448H10.1509C10.6209 4.50448 11.002 4.88552 11.002 5.35555C11.002 5.82557 10.6209 6.20661 10.1509 6.20661H2.84366L5.89557 9.25852Z"
+                  fill="white"
+                />
+              </svg>
+            </button>
+
+            <a href="#" class="reviews__button button button_accent button_almost-thin"
+              >Хочу такую историю</a
+            >
+          </div>
+
+          <img src="./img/rounded-block.png" alt="" class="pairs__round" />
+        </div>
+
+        <div class="counts">
+          <div class="counts__container container">
+            <h2 class="counts__title">Мы в цифрах</h2>
+
+            <ul class="counts__counts">
+              <li class="counts__block">
+                <span class="counts__count">1534</span>
+                <span class="counts__label">участников<br />ежемесячно</span>
+              </li>
+              <li class="counts__block">
+                <span class="counts__count">1500</span>
+                <span class="counts__label">участников<br />ежемесячно</span>
+              </li>
+              <li class="counts__block">
+                <span class="counts__count">1500</span>
+                <span class="counts__label">участников<br />ежемесячно</span>
+              </li>
+              <li class="counts__block">
+                <span class="counts__count">1500</span>
+                <span class="counts__label">участников<br />ежемесячно</span>
+              </li>
+            </ul>
+
+            <h2 class="counts__title counts__title2">Отзывы наших участников</h2>
+
+            <div class="counts__reviews">
+              <div class="counts__reviews-image-wrapper">
+                <img src="./img/reviews.png" alt="" class="counts__reviews-image" />
+              </div>
+
+              <iframe
+                class="counts__widget"
+                width="100%"
+                height="630"
+                src="https://yandex.ru/maps-reviews-widget/1240458165?comments"
+                frameborder="0"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+
+        <div class="partners">
+          <img src="./img/round-white.png" alt="" class="round" />
+
+          <div class="partners__color">
+            <div class="partners__container container">
+              <h2 class="partners__title title2">Наши партнеры</h2>
+
+              <ul class="partners__list">
+                <li class="partners__item partners__item_dark">
+                  <img src="./img/logos/gokon.png" alt="" class="partners__logo" />
+                </li>
+                <li class="partners__item">
+                  <img src="./img/logos/go-quiz.png" alt="" class="partners__logo" />
+                </li>
+                <li class="partners__item partners__item_dark">
+                  <img src="./img/logos/gokon.png" alt="" class="partners__logo" />
+                </li>
+                <li class="partners__item">
+                  <img src="./img/logos/go-quiz.png" alt="" class="partners__logo" />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="book">
+          <img src="./img/round-red.png" alt="" class="round" />
+
+          <div class="book__color">
+            <div class="book__container container">
+              <h2 class="book__title title2">Забронируйте<br />свидание</h2>
+
+              <div class="book__blocks">
+                <form action="#" class="book__form booking-form__form">
+                  <div class="book__contact-check">
+                    <label class="book__contact-type">
+                      <input type="radio" name="contact-type" />Телефон
+                    </label>
+                    <label class="book__contact-type">
+                      <input type="radio" name="contact-type" />Telegram
+                    </label>
+                  </div>
+
+                  <div class="book__grid">
+                    <input type="text" class="booking-form__input" placeholder="*Имя" required />
+                    <input
+                      type="tel"
+                      class="booking-form__input"
+                      placeholder="*Телефон"
+                      data-mask="+7 (000) 000-00-00"
+                      required
+                    />
+                    <div class="booking-form__gender-selection">
+                      <span class="booking-form__radio-set-label">Ваш пол</span>
+                      <div class="booking-form__radio-set signup__radio-set">
+                        <label class="booking-form__radio-label">
+                          <input type="radio" name="gender" value="male" class="radio" required />
+                          Муж.
+                        </label>
+                        <label class="booking-form__radio-label">
+                          <input type="radio" name="gender" value="female" class="radio" required />
+                          Жен.
+                        </label>
+                      </div>
+                    </div>
+                    <input
+                      type="number"
+                      class="booking-form__input"
+                      placeholder="*Возраст"
+                      required
+                    />
+                  </div>
+
+                  <button
+                    type="submit"
+                    class="booking-form__submit-btn button button_accent button_almost-thin"
+                  >
+                    Отправить
+                  </button>
+
+                  <label class="book__agree booking-form__agreement">
+                    <input class="checkbox" type="checkbox" required />
+                    <span>
+                      Я ознакомился и согласен с
+                      <a href="#">Политикой конфиденциальности</a>,
+                      <a href="#">Публичной офертой</a> и
+                      <a href="#">Правилами участия в мероприятиях</a>.
+                    </span>
+                  </label>
+                </form>
+
+                <div class="book__warranty">
+                  <h3 class="book__warranty-title">
+                    100% Гарантия качества Speed Dating в Москве
+                    <img src="./img/warranty.png" alt="" />
+                  </h3>
+                  <p class="book__warranty-description">
+                    Если вам не понравится мероприятие формата Speed Dating (Быстрые Свидания), мы
+                    вернем вам стоимость билета. Мы постоянно работаем над тем, чтобы на наших
+                    Быстрых знакомствах вы нашли то, что искали и рекомендовали нас своим друзьям.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <section class="footer">
+        <div class="footer__container container">
+          <div class="footer__left">
+            <div class="footer__brand">
+              <img src="./img/logo-light.svg" alt="" class="footer__logo" />
+              <div class="footer__kudago">
+                <div class="footer__subtitle">
+                  Лучший выбор по данным<br /><a href="#">KudaGo.com</a>
+                </div>
+                <img src="./img/kudago-light.png" alt="" class="footer__kudago-logo" />
+              </div>
+            </div>
+
+            <nav class="footer__menu">
+              <a class="footer__link" href="#">Знакомства в Москве</a>
+              <a class="footer__link" href="#">Блог о знакомствах</a>
+            </nav>
+          </div>
+
+          <div class="footer__middle">
+            <div class="footer__contacts-title">Свяжитесь с нами:</div>
+            <div class="footer__contacts">
+              <a class="footer__contacts-phone" href="tel:+74951613575">+7 495 161 35 75</a>
+              <a class="footer__contacts-email" href="mailto:speeddating@fastlife.su"
+                >speeddating@fastlife.su</a
+              >
+              <div class="footer__contacts-holder">Холдинг Meetology</div>
+            </div>
+
+            <div class="footer__subscribe">
+              <div class="footer__block">
+                <div class="footer__subscribe-title">Подписка на новостную рассылку</div>
+                <div class="footer__subscribe-text">
+                  Узнавайте первыми о специальных акциях и расписании.
+                </div>
+              </div>
+              <form class="footer__subscribe-row">
+                <input
+                  class="footer__subscribe-input"
+                  type="email"
+                  name="email"
+                  placeholder="email"
+                />
+                <button
+                  class="footer__subscribe-button button button_accent button_thin"
+                  type="submit"
+                >
+                  Подписаться
+                </button>
+              </form>
+            </div>
+          </div>
+
+          <div class="footer__right">
+            <div class="footer__links">
+              <a class="footer__no-link" href="#">Политика конфиденциальности</a>
+              <a class="footer__no-link" href="#">Публичная оферта</a>
+              <a class="footer__no-link" href="#">Правила участия в мероприятиях Speed Dating</a>
+              <a class="footer__no-link" href="#"
+                >Интеграции в знакомства, предложение для партнеров и корпоративных клиентов</a
+              >
+            </div>
+
+            <div class="footer__legal">
+              Проект Fastlife ИП Кардалюццев РН ИНН 121521717700 <br />
+              109147, Москва, ул. Марксистская 20 стр.8 помещение 1/1
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="popup" id="signup">
+        <div class="popup__window signup booking-form">
+          <button class="popup__close" data-popup-toggle="signup">
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 18 18"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 17L17 1M17 17L1 1"
+                stroke="#272525"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+            </svg>
+          </button>
+
+          <h3 class="signup__title">
+            Запишитесь <br />
+            в 1 клик!
+          </h3>
+
+          <p class="signup__service">Православный Speed Dating</p>
+
+          <div class="signup__datetime">
+            <span class="signup__date">02 января</span>
+            <span class="signup__time">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.5568 7.00001C10.5568 6.7735 10.7405 6.58986 10.967 6.58986H11.8307C11.6332 4.24338 9.75718 2.36741 7.4107 2.16988V3.03361C7.4107 3.26013 7.22706 3.44377 7.00055 3.44377C6.77403 3.44377 6.59039 3.26013 6.59039 3.03361V2.16988C4.24391 2.36741 2.36794 4.24338 2.17041 6.58986H3.03412C3.26063 6.58986 3.44427 6.7735 3.44427 7.00001C3.44427 7.22653 3.26063 7.41017 3.03412 7.41017H2.17041C2.36794 9.75665 4.24391 11.6326 6.59039 11.8301V10.9664C6.59039 10.7399 6.77403 10.5563 7.00055 10.5563C7.22706 10.5563 7.4107 10.7399 7.4107 10.9664V11.8301C9.75718 11.6326 11.6332 9.75665 11.8307 7.41017H10.967C10.7405 7.41017 10.5568 7.22653 10.5568 7.00001ZM9.47764 5.04141L7.29457 7.28597C7.1426 7.44222 6.89486 7.45239 6.73061 7.30881L5.10098 5.88417C4.93043 5.73509 4.91304 5.47595 5.06215 5.30544C5.21123 5.1349 5.47034 5.11745 5.64091 5.26658L6.97771 6.43523L8.88962 4.46946C9.04755 4.30709 9.30724 4.30351 9.4696 4.46139C9.63197 4.61938 9.63558 4.87904 9.47764 5.04141Z"
+                  fill="#b3b3b3"
+                />
+                <path
+                  d="M7 0C3.14018 0 0 3.14018 0 7C0 10.8598 3.14018 14 7 14C10.8598 14 14 10.8598 14 7C14 3.14018 10.8598 0 7 0ZM7 12.668C3.87466 12.668 1.33202 10.1253 1.33202 7C1.33202 3.87466 3.87466 1.33202 7 1.33202C10.1253 1.33202 12.668 3.87466 12.668 7C12.668 10.1253 10.1253 12.668 7 12.668Z"
+                  fill="#b3b3b3"
+                />
+              </svg>
+              Пятница, 20:00</span
+            >
+          </div>
+
+          <form action="#" class="booking-form__form">
+            <input type="text" class="booking-form__input" placeholder="*Имя" required />
+            <input
+              type="tel"
+              class="booking-form__input"
+              placeholder="*Телефон"
+              data-mask="+7 (000) 000-00-00"
+              required
+            />
+            <input type="email" class="booking-form__input" placeholder="*Email" required />
+            <input type="number" class="booking-form__input" placeholder="*Возраст" required />
+
+            <div class="booking-form__gender-selection">
+              <span class="booking-form__radio-set-label">Ваш пол</span>
+              <div class="booking-form__radio-set signup__radio-set">
+                <label class="booking-form__radio-label">
+                  <input type="radio" name="gender" value="male" class="radio" required />
+                  Муж.
+                </label>
+                <label class="booking-form__radio-label">
+                  <input type="radio" name="gender" value="female" class="radio" required />
+                  Жен.
+                </label>
+              </div>
+            </div>
+
+            <span class="booking-form__submitation">
+              Мы можем попросить у вас документ, <br />
+              подтверждающий возраст.
+            </span>
+
+            <button
+              type="submit"
+              class="booking-form__submit-btn button button_accent button_almost-thin"
+            >
+              Отправить
+            </button>
+
+            <label class="booking-form__agreement">
+              <input class="checkbox" type="checkbox" required />
+              <span>
+                Я ознакомился и согласен с
+                <a href="#">Политикой конфиденциальности</a>, <a href="#">Публичной офертой</a> и
+                <a href="#">Правилами участия в мероприятиях</a>.
+              </span>
+            </label>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
